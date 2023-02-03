@@ -1,10 +1,12 @@
 import './App.scss';
+import DragAndDrop from './components/DragAndDrop/DragAndDrop';
 import HomePage from './pages/HomePage/home';
 
 
 function App() {
   return (
-    <HomePage/>
+    // <HomePage/>
+    <DragAndDrop/>
   );
 }
 

@@ -1,0 +1,35 @@
+.feature{
+
+    display: flex;
+
+    &__left-box{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        margin: 2rem;
+
+        &__button{
+            width: 10rem;
+
+            &--none{
+                display: hidden;
+            }
+        }
+
+    }
+    &__arrow{
+        border: 2px solid black;
+        margin: 2rem;
+    }
+    &__right-box{
+        display: flex;
+        flex-direction: column;
+        border: 2px solid black;
+        margin: 2rem;
+
+        &__button{
+            width: 10rem;
+        }
+    }
+
+}
