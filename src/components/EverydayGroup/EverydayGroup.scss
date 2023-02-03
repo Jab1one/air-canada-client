@@ -1,0 +1,10 @@
+.travel {
+    display: flex;
+    flex-direction: column;
+  
+    &__partner-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
