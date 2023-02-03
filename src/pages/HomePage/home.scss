@@ -1,0 +1,18 @@
+
+
+.delete-modal {
+  margin-top: 115px;
+  border: none;
+  margin-left: 100px;
+  position: fixed;
+}
+
+.ReactModal__Content .ReactModal__Content--after-open .delete-modal {
+  border: none;
+
+  :focus-visible {
+    outline: -webkit-focus-ring-color auto 0px !important;
+    outline: none !important;
+    border: none !important;
+}
+}
