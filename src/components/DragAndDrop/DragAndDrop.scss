@@ -1,18 +1,24 @@
+.drag-and-drop{
+    width: 80%;
+}
+
 .feature{
 
     display: flex;
+    justify-content: center;
 
     &__left-box{
         display: flex;
         flex-direction: column;
         border: 2px solid black;
         margin: 2rem;
+        width: 10.3rem;
 
         &__button{
             width: 10rem;
 
             &--none{
-                display: hidden;
+                visibility: hidden;
             }
         }
 
