@@ -1,0 +1,51 @@
+.CHPA{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.travel-offers{
+
+    
+
+    &__container{
+        display: flex;
+    }
+
+    &__image{
+        height: 380px;
+        width: 320px;
+    }
+
+    &__wrap{
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__icon{
+        width: 25px;
+    }
+
+ 
+}
+
+.estore-offers{
+
+    &__image{
+        height: 380px;
+        width: 320px;
+    }
+}
+
+.everyday-offers{
+
+    &__image{
+        height: 380px;
+        width: 320px;
+    }
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+}

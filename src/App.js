@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage/home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Travel from './pages/Travel/Travel';
 import Everyday from './pages/Everyday/Everyday';
+import CustomizedHomePageAeroplan from './components/CustomizedHomePageAeroplan/CustomizedHomePageAeroplan';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path="/customize" element={<CustomAeroplan />}/>
           <Route path="/travel" element={<Travel />}/>
           <Route path="/everyday" element={<Everyday />}/>
+          <Route path="/CustomizedHomePageAeroplan" element={<CustomizedHomePageAeroplan />}/>
         </Routes>
       </BrowserRouter>
   );
