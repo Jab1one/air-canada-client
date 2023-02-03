@@ -5,7 +5,7 @@ import navbar from "../../assets/images/Customize my page.png";
 import footer from "../../assets/images/Footer.svg"
 import progress from "../../assets/images/Property 1=Variant2.png"
 import { Link } from "react-router-dom";
-import PartnerCard from "../../components/PartnerCard/PartnerCard";
+import TravelGroup from '../../components/TravelGroup/TravelGroup.jsx'
 
 
 
@@ -22,7 +22,7 @@ const Travel = () => {
     <img src={progress} alt="" className="mainBlock__progress"></img>
     <p className="mainBlock__title">Time to Personalize your page</p>
     <div className="mainBlock__component-container">
-    <PartnerCard />
+    <TravelGroup />
     </div>
     <Link to="/everyday" className="customize-button"><p className="button-text" >Next</p></Link>
    </div>

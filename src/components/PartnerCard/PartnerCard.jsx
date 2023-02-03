@@ -3,7 +3,7 @@ import './PartnerCard.scss';
 import ink from '../../assets/images/123ink.svg'
 
 
-const PartnerCard = () => {
+const PartnerCard = (props) => {
     const [selected, setSelected] = useState(false);
 
     return (
@@ -11,9 +11,8 @@ const PartnerCard = () => {
        <section>
         <div  className={`partner-card ${selected ? 'selected' : ''}`}
             onMouseEnter={() => setSelected(false)}
-            onClick={() => setSelected(!selected)} 
-        >
-             <img src={ink} alt="Partner" />
+            onClick={() => setSelected(!selected)} >
+             <img src={props.src} alt="Partner" />
         </div>
         </section>     
        </>

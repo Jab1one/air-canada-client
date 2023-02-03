@@ -2,19 +2,26 @@
 
 .partner-card {
 
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 190px;
     padding: 1px;
     display: flex;
     align-items: center;
+    background-color: white;
     justify-content: center;
     border: 1px solid $light-blue;
     border-radius: 4px;
     cursor: pointer;
+
+    &:hover  {
+        padding: 0;
+        border: 2px solid $light-blue;
+
+    }
   
     &.selected {
         padding: 0;
-      border: 2px solid $dark-blue;
+       border: 2px solid $dark-blue;
     }
   
     img {
