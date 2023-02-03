@@ -12,7 +12,7 @@ const PartnerCard = (props) => {
         <div  className={`partner-card ${selected ? 'selected' : ''}`}
             onMouseEnter={() => setSelected(false)}
             onClick={() => setSelected(!selected)} >
-             <img src={props.image} alt="Partner" />
+             <img src={props.src} alt="Partner" />
         </div>
         </section>     
        </>

@@ -4,7 +4,7 @@ import topnavbar from "../../assets/images/Nav Bar Aeroplan Home.svg";
 import navbar from "../../assets/images/Customize my page.png";
 import footer from "../../assets/images/Footer.svg"
 import progress from "../../assets/images/Property 1=Variant3.png"
-import PartnerCard from "../../components/PartnerCard/PartnerCard";
+import EverydayGroup from "../../components/EverydayGroup/EverydayGroup";
 import { Link } from "react-router-dom";
 
 
@@ -18,7 +18,7 @@ const Everyday = () => {
     <img src={progress} alt="" className="mainBlock__progress"></img>
     <p className="mainBlock__title">Time to Personalize your page</p>
     <div className="mainBlock__component-container">
-    <PartnerCard />
+    <EverydayGroup />
     </div>
     <Link to="/everyday" className="customize-button"><p className="button-text" >Update</p></Link>
    </div>

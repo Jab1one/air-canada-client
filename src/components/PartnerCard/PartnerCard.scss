@@ -2,8 +2,8 @@
 
 .partner-card {
 
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 190px;
     padding: 1px;
     display: flex;
     align-items: center;
@@ -15,13 +15,13 @@
 
     &:hover  {
         padding: 0;
-        border: 1px solid $light-blue;
+        border: 2px solid $light-blue;
 
     }
   
     &.selected {
         padding: 0;
-      border: 2px solid $dark-blue;
+       border: 2px solid $dark-blue;
     }
   
     img {
