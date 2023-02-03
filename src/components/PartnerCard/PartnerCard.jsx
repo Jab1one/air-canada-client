@@ -21,4 +21,4 @@ const PartnerCard = () => {
     );
 }
 
-export default PartnerCard
+export default PartnerCard;
