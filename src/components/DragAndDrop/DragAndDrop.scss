@@ -1,5 +1,7 @@
 .drag-and-drop{
     width: 80%;
+    padding: 5rem;
+    // background-image: url("../../assets/images/Cloud-Background.svg");
 }
 
 .feature{
@@ -12,10 +14,14 @@
         flex-direction: column;
         border: 2px solid black;
         margin: 2rem;
-        width: 10.3rem;
+        padding: 2rem 0;
+        width: 18rem;
+        // background-image: url("../../assets/images/Cloud-Background.svg");
 
         &__button{
             width: 10rem;
+            margin: 1rem 4rem;
+            background-color: #C0D7E9;
 
             &--none{
                 visibility: hidden;
@@ -24,17 +30,20 @@
 
     }
     &__arrow{
-        border: 2px solid black;
         margin: 2rem;
     }
     &__right-box{
         display: flex;
         flex-direction: column;
-        border: 2px solid black;
+        border: 2px dotted black;
         margin: 2rem;
+        padding: 2rem 0;
+        // background-image: url("../../assets/images/Cloud-Background.svg");
 
         &__button{
             width: 10rem;
+            margin: 1rem 4rem;
+            background-color: #C0D7E9;
         }
     }
 

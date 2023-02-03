@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./DragAndDrop.scss"
+import arrow from "../../assets/images/Drop and drag arrow.svg"
 
 export default function DragAndDrop(){
 
@@ -11,7 +12,8 @@ export default function DragAndDrop(){
         if(button1 === ""){
             console.log("clicked")
             setButton1("--none")
-            handleClick4()
+            handleClick6()
+            
         }else{
             setButton1("")
         }
@@ -33,7 +35,7 @@ export default function DragAndDrop(){
         if(button1 === ""){
             console.log("clicked")
             setButton3("--none")
-            handleClick6()
+            handleClick4()
         }else{
             setButton3("")
         }
@@ -45,7 +47,7 @@ export default function DragAndDrop(){
 
     function handleClick4(){
         if(button5 === "2"){
-            setButton5("Everday")
+            setButton5("eStore")
         }else{
             setButton5("2")
         }
@@ -63,7 +65,7 @@ export default function DragAndDrop(){
 
     function handleClick6(){
         if(button6 === "3"){
-            setButton6("eStore")
+            setButton6("Everyday")
         }else{
             setButton6("3")
         }
@@ -78,8 +80,7 @@ export default function DragAndDrop(){
                     <button className={`feature__left-box__button${button2}`} onClick={handleClick2}>Travel</button>
                     <button className={`feature__left-box__button${button3}`} onClick={handleClick3}>eStore</button>
                 </div>
-                <div className="feature__arrow">
-                </div>
+                <img src={arrow} className="feature__arrow"/>
                 <div className="feature__right-box">
                     <button className="feature__left-box__button" >{button4}</button>
                     <button className="feature__left-box__button" >{button5}</button>
