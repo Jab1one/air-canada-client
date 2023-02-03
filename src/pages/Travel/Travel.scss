@@ -3,3 +3,61 @@
   margin-left: 7%;
   font-family: "Open-Sans";
 }
+
+.mainBlock {
+  height: 900px;
+  width:80%;
+  margin:0 auto 64px auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding: 54px 0 54px 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  &__component-container {
+    background-image: url("../../assets/images/Cloud-Background.svg");
+    height: 60%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+  }
+}
+
+.mainBlock__progress {
+  width: 300px;
+}
+
+
+.mainBlock__title {
+  font-size: 36.8px;
+  font-weight: 600;
+  font-family: "Open-Sans";
+}
+
+.customize-button {
+  width:198px;
+  height: 49px;
+  background-color: #E2EEF7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+  font-weight: 600;
+  color: #204F75;
+    text-decoration: inherit;
+    font-family: "Open-Sans";
+    font-size: 20px ;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 20px, rgba(0, 0, 0, 0.23) 0px 4px 4px;
+
+    &:hover {
+      background-color: #204F75;
+      color:#E2EEF7;
+    }
+}
+
+.button-text { 
+  font-family: "Open-Sans";
+  text-decoration: none;
+}
