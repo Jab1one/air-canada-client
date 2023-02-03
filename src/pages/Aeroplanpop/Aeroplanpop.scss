@@ -1,0 +1,21 @@
+.background-container {
+  display: flex;
+  width: 100%;
+  background-image: url("../../assets/images/Blur.png");
+ height: 100vh;
+justify-content: flex-end;
+position: relative;
+}
+
+.popup {
+height: 600px;
+}
+
+.poplink {
+  width: 100px;
+  height: 50px;
+  
+  position: absolute;
+  top:340px;
+  right: 190px;
+}
