@@ -1,0 +1,9 @@
+.mainmenu {
+  display: flex;
+  gap:80px;
+  list-style: none;
+    
+    &:hover {
+      cursor: pointer;
+    }
+}
