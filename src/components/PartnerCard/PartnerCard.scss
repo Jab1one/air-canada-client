@@ -1,0 +1,24 @@
+@use "../../styles/partials/variables" as *;
+
+.partner-card {
+
+    width: 200px;
+    height: 200px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $light-blue;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    &.selected {
+        padding: 0;
+      border: 2px solid $dark-blue;
+    }
+  
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
